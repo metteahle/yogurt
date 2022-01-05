@@ -1,0 +1,187 @@
+:root {
+  /* farver */
+  --beigewhite: #f6f5f1;
+  --blue: #3354a5;
+  --lightgrey: #ececec;
+  --darkbrown: #291507;
+  --white: #FFFFFF;
+  --yellow: #e3af66;
+  --lightyellow: #f7d8aa;
+  --darkgrey: #333333;
+  --black: #000000;
+
+  /* fonte */
+  --heading:'Helvetica', bold;
+  --text: 'Helvetica';
+}
+
+  html, body{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    font-family: Helvetica;
+  }
+
+  h1{
+    font-family: Helvetica;
+  }
+
+  h2{
+    font-family: Helvetica;
+  }
+
+  /* CSS begynder her*/
+
+/*---------Page header and navbar---------*/
+
+.headerindex{
+  margin: 15px 10px;
+}
+
+.pagenavigation{
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigationelement{
+  text-decoration: none;
+  color: var(--darkgrey);
+  font-family: var(--heading);
+  font-weight: bold;
+}
+
+.navigationelement:hover{
+  opacity: 0.7;
+}
+
+/*---------productimage and offertext---------*/
+.productimage{
+  max-width: 100%;
+}
+
+.offertext{
+  width: 80%;
+  height: 3.5rem;
+  margin: 20px auto 0;
+  text-align: center;
+  background-color: var(--lightyellow);
+}
+
+/*---------ingredients section---------*/
+.ingredientssection{
+  margin: 20px auto;
+  width: 80%;
+}
+
+.ingredientsheading{
+  margin-bottom: 5px;
+}
+
+.nutritiontable{
+  margin: 25px auto 40px;
+  width: 80%;
+  border: var(--black) 1px solid;
+}
+
+.nutritiontabletd{
+  text-align: right;
+}
+
+/*---------quality and cards section---------*/
+.qualitysection{
+  margin: 20px auto;
+  width: 80%;
+}
+
+.qualityflexbox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+
+.qualityheading{
+  margin-bottom: 30px;
+}
+
+.card{
+  border: var(--black) 1px solid;
+  width: 12.5rem;
+  height: 12.5rem;
+  margin-bottom: 30px;
+}
+
+.cardheading{
+  margin: 0;
+}
+
+.cardcontent{
+  padding: 16px 16px;
+}
+
+.cardtopblue{
+  height: 44px;
+  background-color: var(--blue);
+}
+
+.cardtopgrey{
+  height: 44px;
+  background-color: var(--lightgrey);
+}
+
+.cardtopyellow{
+  height: 44px;
+  background-color: var(--yellow);
+}
+
+.cardtoplightyellow{
+  height: 44px;
+  background-color: var(--lightyellow);
+}
+
+/*---------footer---------*/
+.someimage{
+  width: 32px;
+  margin-right: 16px;
+}
+
+.pagefooter{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 15.625rem;
+  background-color: var(--lightyellow);
+}
+
+.pagefooteradress{
+  margin-top: 5px;
+}
+
+  /* Mediarules for different devices*/
+
+  /* Extra small devices (phones, 600px and down) */
+  @media only screen and (max-width: 600px) {
+
+  }
+
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+
+  }
+
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+
+  }
+
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+
+  }
+
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+
+  }
